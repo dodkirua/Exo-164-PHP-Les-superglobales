@@ -7,3 +7,7 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+
+foreach ($_SERVER as $key => $item){
+    echo "<p>$key => $item</p>";
+}
